@@ -10,13 +10,13 @@ public class PentagonCrazy {
 		
 		Robot r2d2 = new Robot();
 		r2d2.penDown();
-		r2d2.setSpeed(10);
+		r2d2.setSpeed(100);
 		r2d2.setPenColor(0, 0, 122);
-		r2d2.setPenWidth(10);
-		int side = 15;
-		int angle = 247/side;
 		
-			for (int i = 0; i < 200; i++) {
+		int side = 5;
+		int angle = 360/side;
+		
+			for (int i = 0; i < 400; i++) {
 			r2d2.setRandomPenColor();
 			r2d2.move(i);
 			
