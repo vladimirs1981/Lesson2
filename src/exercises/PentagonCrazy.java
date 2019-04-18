@@ -13,7 +13,7 @@ public class PentagonCrazy {
 		r2d2.setSpeed(100);
 		r2d2.setPenColor(0, 0, 122);
 		
-		int side = 5;
+		int side = 8;
 		int angle = 360/side;
 		
 			for (int i = 0; i < 400; i++) {
@@ -21,7 +21,7 @@ public class PentagonCrazy {
 			r2d2.move(i);
 			
 			r2d2.turn(angle+1);
-			
+			r2d2.setPenWidth(i);
 			}	
 	}
 
